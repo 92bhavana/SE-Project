@@ -1,0 +1,293 @@
+<html> 
+<head>
+   <link href="http://netdna.bootstrapcdn.com/bootswatch/3.1.1/cerulean/bootstrap.min.css" rel="stylesheet" type="text/css">
+   <script type="text/javascript" href="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+   <script type="text/javascript" href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" type="text/css" href="search.css">
+
+<title>Corporate Action Plan</title>
+</head>
+<body>
+<div class="container-fluid">
+<div class="container">
+
+<!--************************* Navbar starts here *************************-->
+<nav class="navbar navbar-default" role="navigation">
+<div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>   
+</button>
+<a class="navbar-brand" href="#">Corporate Information System</a>
+</div>
+<p class="navbar-text"></p>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+</div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+<div>
+<form role="form" action="cap_backend.php" method="post">
+    <div class="form-group">
+       <label for="companyName">Company Name</label>
+       <input class="form-control" id="companyName" name="companyName">
+    </div>
+    <div class="form-group">
+       <label for="contactName">Contact Name</label>
+       <input class="form-control" id="contactName" name="contactName">
+       </div>
+       <div class="form-group">
+       <label for="emailid">email id</label>
+       <input type="email" class="form-control" id="email" name="email">
+       </div> 
+       <div class="row">
+  <!--Left half of table-->
+<div class="col-md-6">
+<table class="table">
+<tr>
+   <td>
+    <div class="panel panel-primary">
+    <div class="panel panel-heading"><label>CORPORATE</label></div>
+
+    <div class="panel panel-body">
+    <table> 
+    <tr>
+   <td>
+    <div class="checkbox">
+<label>
+       <input type="checkbox" name="noetbos" >Nomination of experts to board of study
+       </label>
+      </div>
+   </td>
+</tr>
+<tr>
+   <td>
+    <div class="checkbox">
+<label>
+       <input type="checkbox" name="fdp">Faculty development programmes
+       </label>
+      </div>
+   </td>
+</tr>
+<tr>
+   <td>
+    <div class="checkbox">
+<label>
+       <input type="checkbox" name="af">Adjunct faculty
+       </label>
+      </div>
+   </td>
+</tr>
+<tr>
+   <td>
+    <div class="checkbox">
+<label>
+       <input type="checkbox" name="sibtc">Specific industry based technical contests
+       </label>
+      </div>
+   </td>
+</tr>
+<tr>
+   <td>
+    <div class="checkbox">
+<label>
+       <input type="checkbox" name="ioisepicd">Introduction of industry specific electives/Participate in curriculum development
+       </label>
+      </div>
+   </td>
+</tr>
+<tr>
+   <td>
+    <div class="checkbox">
+<label>
+       <input type="checkbox" name="glcbil">Guest lectures/Colloquia by industry leaders
+       </label>
+      </div>
+   </td>
+</tr>
+<tr>
+   <td>
+    <div class="checkbox">
+<label>
+       <input type="checkbox" name="erf">Establish research facilities
+       </label>
+      </div>
+   </td>
+</tr>
+<tr>
+   <td>
+    <div class="checkbox">
+<label>
+       <input type="checkbox" name="soets">Sponsorship of events(Technical/Social)
+       </label>
+      </div>
+   </td>
+</tr>
+<tr>
+   <td>
+    <div class="checkbox">
+<label>
+       <input type="checkbox" name="jpd">Joint product development
+       </label>
+      </div>
+   </td>
+</tr>
+<tr>
+   <td>
+    <div class="checkbox">
+<label>
+       <input type="checkbox" name="wwafcmmpfce">Work with academia for customised M.Tech./MS Programmes for company executives
+       </label>
+      </div>
+   </td>
+</tr>
+<tr>
+   <td>
+    <div class="checkbox">
+<label>
+       <input type="checkbox" name="owppfifadp">Offer working products/Prototypes from industry for academia demo purpose
+       </label>
+      </div>
+   </td>
+</tr>
+
+</table>
+</div>
+   </td>
+</tr>
+<tr>
+                        <td>
+                           <div><label>Others</label><input width="3000" height="5000" type="text" class="form-control" name="otherDetails"></div>
+                        </td>
+                      </tr>
+</table>
+</div>
+
+<!--Right half of table-->
+<div class="col-md-6">
+<table class="table">
+<tr>
+   <td>
+    <div class="panel panel-primary">
+    <div class="panel panel-heading"><label>FACULTY</label></div>
+
+    <div class="panel panel-body">
+    <table><tr>
+      <td>
+       <div class="checkbox">
+    <label>
+          <input type="checkbox" name="edp">Executive Development Programmes
+          </label>
+         </div>
+       </td>
+    </tr>
+    <tr>
+      <td>
+       <div class="checkbox">
+    <label>
+          <input type="checkbox" name="c">Consultancy
+          </label>
+         </div>
+       </td>
+    </tr>
+    <tr>
+      <td>
+       <div class="checkbox">
+    <label>
+          <input type="checkbox" name="pm">Project mentorship
+          </label>
+         </div>
+       </td>
+    </tr>
+    <tr>
+      <td>
+       <div class="checkbox">
+    <label>
+          <input type="checkbox" name="sii">Sabbatical in industry
+          </label>
+         </div>
+       </td>
+    </tr>
+    <tr>
+      <td>
+       <div class="checkbox">
+    <label>
+          <input type="checkbox" name="usriiiojwc">Undertake Sponsored Research Independently in Industry or jointly with company
+          </label>
+         </div>
+       </td>
+    </tr>
+    </table>
+    </div>
+
+</td>
+</tr>
+</div></td>
+<tr>
+   <td>
+    <div class="panel panel-primary">
+    <div class="panel panel-heading"><label>STUDENTS</label></div>
+
+    <div class="panel panel-body">
+    <table>
+    <tr>
+   <td>
+    <div class="checkbox">
+<label>
+       <input type="checkbox" name="iv">Industry visit
+       </label>
+      </div>
+   </td>
+</tr>
+<tr>
+   <td>
+    <div class="checkbox">
+<label>
+       <input type="checkbox" name="ws">Workshop/Seminars
+       </label>
+      </div>
+   </td>
+</tr>
+<tr>
+   <td>
+    <div class="checkbox">
+<label>
+       <input type="checkbox" name="mpfsi">Mini projects/Final semester internship
+       </label>
+      </div>
+   </td>
+</tr>
+<tr>
+   <td>
+    <div class="checkbox">
+<label>
+       <input type="checkbox" name="ipt">In plant training
+       </label>
+      </div>
+   </td>
+</tr>
+</table>
+</div>
+   </td>
+</tr>
+
+</table>
+</div>
+</div>
+
+ </div>
+ <div class="row">
+    <div class="col-md-6 col-md-offset-3"><input type="submit" class="btn btn-primary btn-lg btn-block"></input>
+</div></div>
+
+</form> 
+    </div>
+   </div>
+</div>
+</body>
+</html>
