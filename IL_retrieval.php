@@ -11,7 +11,7 @@
     	<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     	<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     	<link rel="stylesheet" type="text/css" href="search.css">
-		<title>CIS List of Companies</title>
+		<title>CIS Interaction Logs</title>
 	</head>
 	<body>
 		<div class="container-fluid">

@@ -4,7 +4,7 @@
 	<?php
 
 	    // Create connection
-		$con=mysqli_connect("localhost","Ashwini Bhaskar","kittu1","cis");
+		$con=mysqli_connect("localhost","root","","cis");
 
 		// Check connection
 		if (mysqli_connect_errno())
@@ -39,7 +39,7 @@
    			die('Error: ' . mysqli_error($con));
   		}
 
-			include("add_comp_success.html");
+			include("add_comp_success.php");
 		
 
 		?>

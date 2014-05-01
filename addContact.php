@@ -49,27 +49,27 @@ session_start();
 		?>
 		  <div class="form-group">
 		    <label for="Company Name">Contact Name</label>
-		    <input type="Name" class="form-control" name="contactName" placeholder="Enter Contact Name">
+		    <input type="Name" class="form-control" name="contactName" placeholder="Enter Contact Name" required>
 		  </div>
 		  <div class="form-group">
 		    <label for="Company Name">Company Name</label>
-		    <input type="Name" class="form-control" name="cName" placeholder="Enter Company Name">
+		    <input type="Name" class="form-control" name="cName" placeholder="Enter Company Name" required>
 		  </div>
 		  <div class="form-group">
 		    <label for="Company Name">Branch Name</label>
-		    <input type="Name" class="form-control" name="officeName" placeholder="Enter Branch Name">
+		    <input type="Name" class="form-control" name="officeName" placeholder="Enter Branch Name" required>
 		  </div>
 		  <div class="form-group">
 		    <label for="Company Name">Designation</label>
-		    <input type="Name" class="form-control" name="designation" placeholder="Enter Contact Designation">
+		    <input type="Name" class="form-control" name="designation" placeholder="Enter Contact Designation" required>
 		  </div>
 		  <div class="form-group">
 		    <label for="Company Name">Mobile Number</label>
-		    <input type="Name" class="form-control" name="mobileNumber" placeholder="Enter Contact Number">
+		    <input type="Name" class="form-control" name="mobileNumber" placeholder="Enter Contact Number" required>
 		  </div>
 		  <div class="form-group">
 		    <label for="Company Name">email</label>
-		    <input type="Name" class="form-control" name="email" placeholder="Enter Contact email">
+		    <input type="Name" class="form-control" name="email" placeholder="Enter Contact email" required>
 		  </div>
 		  <center><button type="submit" value="Submit" class="btn btn-primary">Submit</button></center>
 		</form>

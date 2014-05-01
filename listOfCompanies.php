@@ -78,7 +78,7 @@
 
             
     <div class="page-header">
-      <h1>Companies <a href="/CIS/Add%20Company%20Details.html" class="btn btn-primary" role="button" style="float:right;top:150px">Add Company</a>
+      <h1>Companies <a href="/CIS/Add_Company_Details.php" class="btn btn-primary" role="button" style="float:right;top:150px">Add Company</a>
             
           <a href="/CIS/addContact.php" class="btn btn-primary" role="button" style="float:right;top:150px">Add Contact</a></h1>
       <div class="col-md-offset-9">
