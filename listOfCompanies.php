@@ -109,7 +109,7 @@
     $tags = $record_data["tags"];
     
     
-    echo '<tr><td><form method="get" action="companyDetails.php"><button name="'.$cName.'" type="button" class="btn btn-primary">'.$cName.'</button></form></td><td>'.$cDescription.'</td><td>'.$tags.'</td><tr>';
+   echo '<tr><td><form method="get" action="companyDetails.php"><input type="hidden" name="cName" value="'.$cName.'"><button type="submit" class="btn btn-primary" role="button">'.$cName.'</button></form></td><td>'.$cDescription.'</td><td>'.$tags.'</td><tr>';
     
     }
     echo "</table>";
