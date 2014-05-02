@@ -1,0 +1,4 @@
+Copy and Paste the text in quotes in the head of the html document
+
+"<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">"
