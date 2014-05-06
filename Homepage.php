@@ -49,7 +49,7 @@ mysql_connect("localhost","root","") or die (mysql_error ());
           <ul class="dropdown-menu">
             <li><a href="cap.html">CAP B.Tech</li>
             <li class="divider"></li>
-            <li><a href="cap.html">CAP MBA</a></li>
+            <li><a href="capMba.html">CAP MBA</a></li>
         </ul>
 
             <li class="dropdown">
@@ -65,15 +65,18 @@ mysql_connect("localhost","root","") or die (mysql_error ());
           <ul class="dropdown-menu">
             <li><a href="IL_retrieval.php">View Logs</a></li>
             <li class="divider"></li>
-            <li><a href="InteractionLog_form.php">Enter Log Details</a></li>
+            <li><a href="InteractionLog_form.php">Enter Log Details</a></li></ul>
    
-
-            
-            
-          </ul>
+            <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Search<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="capDetails.html">Cap Details</a></li>
+            <li class="divider"></li>
+            <li><a href="capMbaDetails.html">Cap MBA</a></li>
+            </ul>
         </li> 
-            <li><a href="search.php">Search</a></li></li>
-            <li><a href="#">Logout</a></li></li>
+            
+            <li><a href="#">Logout</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div>

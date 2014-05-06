@@ -101,7 +101,7 @@
               </div>
               <div class="modal-body">
                 <?php
-                  $data = mysql_query('Select cName, cDescription, tags, from company ORDER BY cID desc limit 1')
+                  $data = mysql_query('Select cName, cDescription, tags from company ORDER BY cID desc limit 1')
                   or die(mysql_error()); 
 
                   $data1 = mysql_query('Select officeName, cName, address, city, state, location from offices ORDER BY oID desc limit 1') or die(mysql_error()); 
